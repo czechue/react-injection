@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
+import { InjectableProps } from '../../../src';
 import { injectComponent } from './di';
-import { InjectableProps } from './injection';
 import { SampleService } from './sample-service';
 
 interface Props {

@@ -1,5 +1,5 @@
 import { injectable } from 'inversify';
-import { ReactiveService } from './injection';
+import { ReactiveService } from '../../../src'
 
 interface State {
   sample: string;
